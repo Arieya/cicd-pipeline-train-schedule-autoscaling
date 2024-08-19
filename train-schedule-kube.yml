@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: train-schedule
-        image: Arieya/train-schedule:autoscaling
+        image: linuxacademycontent/train-schedule:autoscaling
         ports:
         - containerPort: 8080
         livenessProbe:
